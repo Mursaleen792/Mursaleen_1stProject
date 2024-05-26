@@ -1,0 +1,22 @@
+CREATE DATABASE india;
+USE india;
+ 
+CREATE TABLE statesn(
+   id INT PRIMARY KEY,
+   city VARCHAR(80),
+   population INT NOT NULL   
+);
+
+INSERT INTO statesn 
+  (id,city,population)
+VALUES
+  (1 , "JAMMU & KASHMIR" , "114501"),
+  (2 , "GUJRAT" , "45421"),
+  (3 , "KARNATAKA" , "25555"),
+  (4 , "ANDHRA PRADESH" , "7215487"),
+  (5 , "TAMILNADU" , "485333"),
+  (6 , "WEST BENGAL" , "254254"),
+  (7 , "MAHARASTRA" , "1254655"),
+  (8 , "RAJASTHAN" , "771258"),
+  (9 , "KERALA" , "912299"),
+  (10 , "NEPAL" , "445122");
